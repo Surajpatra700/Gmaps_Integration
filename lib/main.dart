@@ -8,6 +8,7 @@ import 'package:design_app/custom_marker_screen.dart';
 import 'package:design_app/google_places_api.dart';
 import 'package:design_app/home_screen.dart';
 import 'package:design_app/polygon_screen.dart';
+import 'package:design_app/polyline_screen.dart';
 import 'package:design_app/user_current_location.dart';
 import 'package:flutter/material.dart';
 import 'package:design_app/chats.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: PolygonScreen(),
+      home: PolylineScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
